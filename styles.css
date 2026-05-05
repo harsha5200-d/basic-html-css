@@ -47,16 +47,23 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     padding: 0 50px;
 }
 
-.hero .right .ctn-button{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgb(0, 238, 255);
+.hero .right .cta-button {
+    padding: 10px 20px; /* Note: I added left/right padding so it's not squished */
+    background: linear-gradient(to right, rgb(0, 238, 255), rgb(30, 58, 138));
     color: black;
     text-decoration: none;
     font-weight: bold;
+    border:none;
     border-radius: 5px;
     margin-top: 20px;
+    align-self:center /* Keeps the button on the left and fits it to the text size */
+}
+
+.hero .right .cta-button:hover {
+    background: linear-gradient(to right, rgb(30, 58, 138), rgb(0, 238, 255)); /* Reverse the gradient on hover */
+    scale: 1.1;
 }
