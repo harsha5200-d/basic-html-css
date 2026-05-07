@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+    height: 40vh;
+}
+
+.set{
+    /* margin-top: 90px; */
+    position: relative;
+    width:50%;
+    margin-left: 50px;
+
+}
+.set1{
+    width:50%;
+}
+
+.set img{
+    position: absolute;
+}
+
+.set1 img {
+    position: absolute;
+}
+
+.pic1 { 
+    top: -50px; 
+    left: 200px; 
+}
+
+.pic2 { 
+    top: 100px; 
+    left: 50px; 
+}
+
+.pic3 { 
+    top: 100px; 
+    left: 200px; 
+}
+
+.pic4 { 
+    top: 100px; 
+    left: 350px; 
+}
+
+.pic5 { 
+    top: 250px; 
+    left: 200px; 
+}
+
+.pic6{
+     top: 100px; 
+    left: 800px; 
+}
